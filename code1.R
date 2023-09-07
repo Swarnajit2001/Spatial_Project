@@ -121,8 +121,8 @@ for(i in 1:length(all.data)){
 #to determine the global 95th and 99th percentile\
 
 dat_vec = unlist(all.data1)
-(p99 = quantile(dat_vec, .99))
-(p95 = quantile(dat_vec, .95))
+(p99 = quantile(dat_vec, .99, na.rm = T))
+(p95 = quantile(dat_vec, .95, na.rm = T))
 
 
 #get the value of those 10 variables for all locations for all years
@@ -136,12 +136,15 @@ final_var_data = list(NULL)
 
 for(i in 1 : length(all.data1)){
   final_var_data[[i]] = apply_on_mat(all.data1[[i]])
+  Nan_index = which(final_var_data[[i]][,1] == 0)
+  final_var_data[[i]][Nan_index,] = NA
   print(paste('Processed element', i))
 }
 
+save(final_var_data, file = 'precip_var_data.Rdata')
 # fna = 0
 # for(i in 1 : 122){
-#   fna[i] = sum(all.data[[i]] %>% rowSums() == 0)
+#   fna[i] = sum(final_var_data[[i]] %>% rowSums() == 0)
 # }
 # fna
 
