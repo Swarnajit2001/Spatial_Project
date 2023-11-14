@@ -33,7 +33,7 @@
 
 *07 Indices_Plot.1.pdf* : Plot for the data application
 
-*07 Indices_Plot.1.pdf* : Plot for the data application
+*07 Indices_Plot.2.pdf* : Plot for the data application
 
 *07 MCMC_Plots.R* : Code for the plots on data application
 
