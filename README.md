@@ -1,9 +1,9 @@
 # Spatial Project
-*00 Data_Store_Raw Cleaned Data.Rdata* : Data on daily precipitation for the years 1951-2017 on 1deg * 1deg data over India.
-*01A MeterologcialSubDivisons.zip* : containing details of different climate regions of India.
-*01B App_for_region* : Shiny app to show the pixels and their corresponding regions.
-*01C Zones.pdf* : Annotated regions over India.
-*01D Regions.xlsx* : Excel file containing the pixels and thir corresponding regions.
+*00 Data_Store_Raw Cleaned Data.Rdata* : Data on daily precipitation for the years 1951-2017 on 1deg * 1deg data over India.\\
+*01A MeterologcialSubDivisons.zip* : containing details of different climate regions of India.\\
+*01B App_for_region* : Shiny app to show the pixels and their corresponding regions.\\
+*01C Zones.pdf* : Annotated regions over India.\\
+*01D Regions.xlsx* : Excel file containing the pixels and thir corresponding regions.\\
 
 
 *02 data_prep.R* : Preparing the climate indices from the raw data
