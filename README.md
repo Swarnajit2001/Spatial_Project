@@ -22,6 +22,8 @@
 
 *04 Quantile_Plots.pdf* : QQ-plot for different regions
 
+*04 fmadogram.R* : Code for two type of plots of the chi-measures
+
 
 *05 Posterior.R* : Calculating posterior distributions for all parameters
 
