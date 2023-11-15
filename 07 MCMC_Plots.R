@@ -61,7 +61,7 @@ save(final.mat, file = "07 MCMC_Plots.Rdata")
 
 #=====================================================================
 
-# api_key = 'AIzaSyDxM0ApHSrRkym_RIsqf4ljzx7AtP8Jul0'
+
 # register_google(key = api_key)
 # 
 # bound <- c(
