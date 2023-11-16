@@ -12,6 +12,7 @@
 
 *02 data_prep.R* : Preparing the climate indices from the raw data
 
+*02A EDA_region_map.R* : Code to draw the map of India denoting every pixel and regions
 
 *03 We_Did_It.Rdata* : Final Data
 
